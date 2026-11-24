@@ -1,0 +1,5 @@
+{"run_id":"run_001","success":true,"steps":3,"tool_calls":1}
+{"run_id":"run_002","success":false,"steps":5,"tool_calls":2}
+{"run_id":"run_003","success":true,"steps":2,"tool_calls":1}
+{"run_id":"run_004","success":true,"steps":6,"tool_calls":3}
+{"run_id":"run_005","success":false,"steps":4,"tool_calls":2}
