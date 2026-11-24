@@ -66,15 +66,10 @@ def analyze_runs(file_path: str) -> dict:
                 successful_runs += 1
 
     failed_runs = total_runs - successful_runs
-    if total_runs > 0:
-        success_rate = (successful_runs / total_runs) * 100
-    else:
-        success_rate = 0
 
-    if total_runs > 0:
-        average_steps = total_steps / total_runs
-    else:
-        average_steps = 0
+    success_rate = (successful_runs / total_runs) * 100 if total_runs > 0 else 0
+
+    average_steps = total_steps / total_runs if total_runs > 0 else 0
 
     return {
         "total_runs": total_runs,
